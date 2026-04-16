@@ -1,6 +1,6 @@
 import axios from "axios";
 
-export const API_BASE = "http://localhost:5001/api";
+export const BASE_URL = "https://bluechat-6pue.onrender.com";
 
 export function createHttp(token) {
   const http = axios.create({ baseURL: API_BASE });
